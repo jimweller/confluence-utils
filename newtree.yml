@@ -1,0 +1,16 @@
+- host: https://exampleco.atlassian.net/
+- username: jim.weller@exampleco.com
+- api_key: YOURAPIKEY
+
+- space: ~71202072dac46aa2cf405f81eb310fd06cf726/pages/1570800798/TEMP
+
+- page: RootA
+  content: "This is my content"
+  children:
+    - page: Child A1
+      content: "This is my A1"
+      children:
+      - page: Child A11
+        content: "This is my A11"
+      - page: Child A12
+      - page: Child A13
